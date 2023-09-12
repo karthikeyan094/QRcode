@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: hsl(212, 45%, 89%);
+      font-family: sans-serif, 'Open Sans';
+    }
+
+
+    .heading {
+      font-weight: bolder;
+      font-size: 15px;
+      color: hsl(218, 44%, 22%)
+    }
+
+    .container {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .blog-card {
+      min-width: 128px;
+      max-width: 256px;
+      min-height: 128px;
+      border-radius: 0.6rem;
+      margin-bottom: 1rem;
+      background-color: rgb(255, 250, 250);
+
+    }
+
+    .card-img img {
+      width: 100%;
+      height: 100%;
+      padding: 1rem;
+    }
+
+    .card-content {
+      padding: 1rem 1.6rem;
+    }
+
+    .para {
+      font-size: 11px;
+      color: hsl(220, 15%, 55%);
+      font-weight: 400;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="blog-card">
+      <div class="card-img">
+        <img style="border-radius: 20px;" src="./images/image-qr-code.png" alt="" />
+
+      </div>
+      <div class="card-content text-center">
+        <div class="card-body">
+          <p class="heading">Improve your front-end skills by building projects</p>
+          <p class="para">Scan the QR code to visit Frontend Mentor and take your coding skilld to the next level</p>
+          <!-- Add Card Body Elements Here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
